@@ -1,0 +1,190 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#333 ;
+  color: white;
+  margin: 2px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-image: linear-gradient( #6420de , #cf239e , #23cfb5 ) ;
+  color: #111;
+}
+
+.navbar .active {
+  background-color: #f44336 ;
+}
+
+#home {
+  font-family: 'Anton', sans-serif;
+  font-size: 40px; 
+}
+
+.content{
+
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+p{
+  padding: 15px;
+}
+
+.vikram img{
+  float: left;
+  margin:10px;
+}
+
+
+
+.top-gun img{
+  float: right;
+  margin:10px;
+
+}
+
+.kgf img{
+  float: left;
+  margin:10px;
+
+}
+
+.don img{
+  float:right;
+  margin:10px;
+
+}
+
+.matix img{
+  float: left;
+  margin:10px;
+
+}
+
+.smnwh img{
+  float: right;
+  margin:10px;
+
+
+}
+
+.terminator img{
+  float: left;
+  margin:10px;
+
+}
+
+.interstellar img{
+  float: right;
+  margin:10px;
+
+
+}
+
+.free-guy img{
+  float: left;
+}
+
+.rpo img{
+  float: right;
+  margin:10px;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  background-color:  #161c19 ;
+  padding: 20px;
+}
+
+footer .about_us {
+  width: 550px;
+  padding: 30px;
+}
+
+
+.contactUs label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #000;
+}
+
+input[type=text],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+
+
+button {
+  background-color: #b500fd;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background-color: #00d9ff;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 350px;
+  height: 420px;
+
+}
+
+.contributors ul li{
+  list-style-type:none;
+  padding: 10px;
+}
+
+.contributors ul li a {
+  text-decoration: none;
+  color:inherit;
+}

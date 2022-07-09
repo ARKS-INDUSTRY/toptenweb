@@ -6,6 +6,14 @@ html, body {
   margin: 2px;
 }
 
+.navbar{
+  position: fixed;
+  top:0px;
+  left: 0px;
+  margin-bottom: 50px;
+  width: 100%
+}
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -50,6 +58,19 @@ html, body {
 
 p{
   padding: 15px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+img{
+  width: 350px;
+  height: 250px;
+
+}
+
+strong{
+  font-family: 'Edu TAS Beginner', cursive;
+  font-size: 25px;
+
 }
 
 .vikram img{
@@ -114,13 +135,14 @@ p{
 
 footer{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color:  #161c19 ;
   padding: 20px;
+  width:100%
 }
 
 footer .about_us {
-  width: 550px;
+  width: 350px;
   padding: 30px;
 }
 
@@ -173,18 +195,51 @@ button:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
-  width: 350px;
+  width: 250px;
   height: 420px;
+  padding: 30px;
 
 }
 
 .contributors ul li{
   list-style-type:none;
-  padding: 10px;
+  padding: 15px;
 }
 
 .contributors ul li a {
   text-decoration: none;
   color:inherit;
+}
+
+.contributors ul li a span{
+  margin:50px;
+}
+
+
+.loader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: grey;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3; 
+}
+
+.loader img{
+  height: 100%;
+  width:100%;
+}
+
+.disppear{
+  animation: vanish 1s forwards;
+}
+@keyframes vanish {
+  100%{
+    opacity: 0;
+    visibility: hidden;
+  }
 }
